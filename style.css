@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-weight: 900;
+  top: 47px;
+  left: 100px;
+}
+
+.section .menu {
+  display: flex;
+  column-gap: 90px;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  width: 367px;
+  height: 238px;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+}
+
+.content-wrapper h1 {
+  color: #ff922c;
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content-wrapper h2 {
+  color: #333333;
+  font-family: Poppins;
+  font-size: 39px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content-wrapper p {
+  padding: 3px;
+  margin-top: 15px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.content-wrapper button {
+  margin-top: 25px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 163px;
+  height: 48px;
+  border: none;
+  border-radius: 69px;
+  background-color: #ff922c;
+}
+
+.content-wrapper button:hover {
+  color: #ff922c;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 3px 1px 25px 1px #ff922c;
+}
+
+.content-wrapper a {
+  display: block;
+  margin-top: 90px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Section Circle */
+.circle {
+  background-color: #ffeede;
+  position: absolute;
+  width: 1120px;
+  height: 1100px;
+  z-index: -1;
+  border-radius: 50%;
+  top: -745px;
+  left: 383px;
+}
+
+/* Image Section */
+.main-image img {
+  width: 289px;
+  height: 294.9587707519531px;
+  position: absolute;
+  top: 218px;
+  left: 830px;
+  filter: brightness(115%);
+  filter: contrast(120%);
+}
+
+.image-circle {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 110px;
+  left: 700px;
+  border: 3px dashed #e87f1e;
+
+  border-radius: 50%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  z-index: -1;
+}
+
+.img1 {
+  background-image: url("./img/01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -45px;
+  left: 195px;
+  filter: brightness(110%);
+}
+
+.img2 {
+  background-image: url("./img/02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 11px;
+  left: 60px;
+  filter: brightness(110%);
+}
+
+.img3 {
+  background-image: url("./img/03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -2px;
+  left: 370px;
+  filter: brightness(110%);
+}
+
+.img4 {
+  background-image: url("./img/04.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 97px;
+  height: 99px;
+  position: absolute;
+  top: 109px;
+  left: 480px;
+  filter: brightness(110%);
+}
+
+.img5 {
+  background-image: url("./img/05.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 97px;
+  height: 99px;
+  position: absolute;
+  top: 120px;
+  left: -25px;
+  filter: brightness(110%);
+}
+
+.bg {
+  background-image: url(./img/Group\ 3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 457px;
+  left: 680px;
+}
+
+.bg1 {
+  background-image: url(./img/Group\ 3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 457px;
+  right: 250px;
+}
